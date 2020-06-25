@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Meu código base para projeto de Continuous Integratioa and Continuous Delivery
+          Meu código base para projeto de Continuous Integration and Continuous Delivery
         </p>
         <a
           className="App-link"
