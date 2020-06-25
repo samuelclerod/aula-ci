@@ -13,3 +13,5 @@ jobs:
         run: |
           node --version
           npm --version
+      - name: listing files
+        run: ls -l
