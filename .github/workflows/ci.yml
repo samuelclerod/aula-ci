@@ -22,5 +22,4 @@ jobs:
         env:
           CI: true
 
-      - name: listing files
-        run: ls -la
+      - run: npm run build
