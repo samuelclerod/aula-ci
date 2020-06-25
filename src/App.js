@@ -8,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Meu código base para projeto de Continuous Integration and Continuous Delivery
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/features/actions"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn GitHub Actions
         </a>
       </header>
     </div>
