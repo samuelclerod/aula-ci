@@ -9,13 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - name: check node version
-        run: |
-          node --version
-          npm --version
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
 
       - name: project checkout
         uses: actions/checkout@v2
+
+      - run: npm ci
+
+      - run: npm test -- --coverage
+        env:
+          CI: true
 
       - name: listing files
         run: ls -la
