@@ -13,5 +13,9 @@ jobs:
         run: |
           node --version
           npm --version
+
+      - name: project checkout
+        uses: actions/checkout@v2
+
       - name: listing files
         run: ls -l
